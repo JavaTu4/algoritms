@@ -13,6 +13,11 @@ public class App {
             ms[i] = k;
             k+=10;
         }
+        int[]ms1 = new int[6];
+        for(int a = 0;a < ms1.lenght;a++){
+            ms1[a] = 9;
+        }
         System.out.println(Arrays.toString(ms));
+        System.out.println(Arrays.toString(ms1));
     }
 }
