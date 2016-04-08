@@ -14,10 +14,10 @@ public class App {
             k+=10;
         }
         int[]ms1 = new int[6];
-        for(int a = 0;a < ms1.lenght;a++){
+        for(int a = 0;a < ms1.length;a++){
             ms1[a] = 9;
         }
-        System.out.println(Arrays.toString(ms));
-        System.out.println(Arrays.toString(ms1));
+        System.out.println("ms =="+Arrays.toString(ms)+"\n");
+        System.out.println("ms1 =="+Arrays.toString(ms1));
     }
 }
